@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Animals from './top/rendering-techniques/Animals'
+import PackingList from './react.dev/conditional-rendering/PackingList'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Animals />
+    <PackingList />
   </StrictMode>,
 )
