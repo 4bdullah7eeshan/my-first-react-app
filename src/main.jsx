@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Person from './top/more-on-state/Person'
+import CustomInput from './top/more-on-state/CustomInput'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Person />
+    <CustomInput />
   </StrictMode>,
 )
