@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import PackingList from './react.dev/conditional-rendering/PackingList'
+import DrinkList from './react.dev/conditional-rendering/DrinkList'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <PackingList />
+    <DrinkList />
   </StrictMode>,
 )
