@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Svg from './Svg'
+import ToDoList from './ToDoList'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Svg />
+    <ToDoList />
   </StrictMode>,
 )
