@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Form from './react.dev/choosing-the-state-structure/Form'
+import Menu from './react.dev/choosing-the-state-structure/Menu'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Form />
+    <Menu />
   </StrictMode>,
 )
