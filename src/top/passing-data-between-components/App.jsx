@@ -5,15 +5,15 @@ function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick
     };
   
     return (
-      <button onClick={handleClick} style={buttonStyle}>
+      <button onClick={() => handleClick('https://www.theodinproject.com')} style={buttonStyle}>
         {text}
       </button>
     );
 }
   
 export default function App() {
-    const handleButtonClick = () => {
-      window.location.href = "https://www.google.com";
+    const handleButtonClick = (url) => {
+      window.location.href = url;
     };
   
     return (
