@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Form from './react.dev/state-a-components-memory/challenge-02/Form'
+import FeedbackForm from './react.dev/state-a-components-memory/challenge-03/FeedbackForm'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Form />
+    <FeedbackForm />
   </StrictMode>,
 )
