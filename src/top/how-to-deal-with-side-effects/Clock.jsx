@@ -7,7 +7,7 @@ export default function Clock() {
         setInterval(() => {
             setCounter(count => count + 1)
         }, 1000);
-    })
+    }, [])
     
     return (
         <p>{counter} seconds have passed.</p>
